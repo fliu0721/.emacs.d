@@ -1,4 +1,8 @@
-; 加载路径
+;;; init.el -- for settings init
+;;; Commentary:
+;;; Code:
+
+;;加载路径
 (add-to-list 'load-path
 	     (expand-file-name (concat user-emacs-directory "lisp")))
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
@@ -10,3 +14,4 @@
 (require 'init-elpa)
 (require 'init-package)
 (require 'init-ui)
+;;; init.el ends here
