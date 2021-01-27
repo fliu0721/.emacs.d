@@ -15,7 +15,6 @@
 (global-set-key (kbd "C-/") 'comment-line)
 (global-set-key (kbd "C-?") 'comment-or-uncomment-region)
 
-
 ;; settings for crux
 (use-package crux
   :bind (("C-a" . crux-move-beginning-of-line)
